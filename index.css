@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 500px;
+    height: 100vh;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.title {
+    font-size: 50px;
+    color: red;
+}
+
+.lottery__title {
+    font-size: 20px;
+}
+
+.book {
+    width: 200px
+}
+
+.buy {
+    width: 90%;
+    margin-top: 30px;
+    border: none;
+    background-color: #e8483c;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 30px;
+    height: 50px;
+}
+
+.buy:hover {
+    cursor: pointer;
+}
+
+.link {
+    color: #fff;
+    text-decoration: none;
+}
+
+.tickets {
+    color: #4287f5;
+    font-size: 20px;
+}
